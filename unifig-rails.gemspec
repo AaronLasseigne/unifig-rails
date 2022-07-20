@@ -26,6 +26,6 @@ Gem::Specification.new do |spec|
     Dir.glob(File.join('lib', '**', '*.rb'))
   spec.test_files = Dir.glob(File.join('spec', '**', '*.rb'))
 
-  spec.add_dependency 'railties', '>= 6', '< 8'
+  spec.add_dependency 'railties', '>= 6'
   spec.add_dependency 'unifig', '~> 0.1.0'
 end

@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 
 gemspec
 
+gem 'rails', '>= 6'
 gem 'rake', '~> 13.0'
 gem 'rspec', '~> 3.11.0'
 gem 'rubocop', '~> 1.29.1'
