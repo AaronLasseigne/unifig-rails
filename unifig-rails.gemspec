@@ -25,8 +25,6 @@ Gem::Specification.new do |spec|
     %w[CHANGELOG.md CONTRIBUTING.md LICENSE.txt README.md] +
     Dir.glob(File.join('lib', '**', '*.rb'))
   spec.test_files = Dir.glob(File.join('spec', '**', '*.rb'))
-  spec.bindir = 'exe'
-  spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
 
   spec.add_dependency 'railties', '>= 6', '< 8'
   spec.add_dependency 'unifig', '~> 0.1.0'
