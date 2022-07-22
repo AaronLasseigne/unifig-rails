@@ -34,7 +34,9 @@ RSpec.configure do |config|
       `bundle exec rails new example --minimal`
       Dir.chdir('example') do
         append_to_file('Gemfile', 'gem "unifig-rails", path: "../../"')
-        `bundle install`
+        Bundler.with_unbundled_env do
+          `bundle install`
+        end
       end
     end
   end
