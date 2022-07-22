@@ -1,33 +1,48 @@
-# Unifig::Rails
+# [Unifig::Rails][]
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/unifig/rails`. To experiment with that code, run `bin/console` for an interactive prompt.
+Adds [Rails][] support to [Unifig][].
 
-TODO: Delete this and the text above, and describe your gem
+[![Version](https://img.shields.io/gem/v/unifig-rails.svg?style=flat-square)](https://rubygems.org/gems/unifig-rails)
+[![Test](https://img.shields.io/github/workflow/status/AaronLasseigne/unifig-rails/Test?label=Test&style=flat-square)](https://github.com/AaronLasseigne/unifig-rails/actions?query=workflow%3ATest)
 
 ## Installation
 
-Install the gem and add to the application's Gemfile by executing:
+Add it to your Gemfile:
 
-    $ bundle add unifig-rails
+``` rb
+gem 'unifig-rails', '~> 0.1.0'
+```
 
-If bundler is not being used to manage dependencies, install the gem by executing:
+Or install it manually:
 
-    $ gem install unifig-rails
+``` sh
+$ gem install unifig-rails --version '~> 0.1.0'
+```
+
+This project uses [Semantic Versioning][].
+Check out [GitHub releases][] for a detailed list of changes.
 
 ## Usage
 
 TODO: Write usage instructions here
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+[API Documentation][]
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/AaronLasseigne/unifig-rails.
+If you want to contribute to Unifig, please read [our contribution guidelines][].
+A [complete list of contributors][] is available on GitHub.
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+Unifig is licensed under [the MIT License][].
+
+[Unifig::Rails]: https://github.com/AaronLasseigne/unifig-rails
+[Rails]: https://rubyonrails.org
+[Unifig]: https://github.com/AaronLasseigne/unifig
+[Semantic Versioning]: http://semver.org/spec/v2.0.0.html
+[GitHub releases]: https://github.com/AaronLasseigne/unifig-rails/releases
+[API Documentation]: http://rubydoc.info/github/AaronLasseigne/unifig-rails
+[our contribution guidelines]: CONTRIBUTING.md
+[complete list of contributors]: https://github.com/AaronLasseigne/unifig-rails/graphs/contributors
+[the MIT License]: LICENSE.txt
