@@ -10,7 +10,8 @@ module Unifig
   # @private
   module Rails
     def self.run
-      Unifig::Init.load_file(::Rails.root.join('config', 'unifig.yml'), ::Rails.env.to_sym)
+      file_path = ::Rails.root.join('config', 'unifig.yml')
+      Unifig::Init.load_file(file_path, ::Rails.env.to_sym) if File.exist?(file_path)
     end
   end
 end

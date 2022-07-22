@@ -78,10 +78,10 @@ def write_config(yml)
   end
 end
 
-def rails_runner(command)
+def rails(cmd)
   in_rails do
     Bundler.with_unbundled_env do
-      `bundle exec rails runner '#{command}'`
+      `bundle exec rails #{cmd}`
     end
   end
 end
