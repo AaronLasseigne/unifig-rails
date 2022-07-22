@@ -13,10 +13,10 @@ Add it to your Gemfile:
 gem 'unifig-rails', '~> 0.1.0'
 ```
 
-Or install it manually:
+Run the configuration generator:
 
 ``` sh
-$ gem install unifig-rails --version '~> 0.1.0'
+rails generate unifig:config
 ```
 
 This project uses [Semantic Versioning][].
@@ -24,9 +24,9 @@ Check out [GitHub releases][] for a detailed list of changes.
 
 ## Usage
 
-TODO: Write usage instructions here
+Once your Rails app has been started you will be able use Unifig with the setup you've created in `config/unifig.yml`.
 
-[API Documentation][]
+For information on how to use Unifig see the [documentation][] for that gem.
 
 ## Contributing
 
@@ -40,9 +40,9 @@ Unifig is licensed under [the MIT License][].
 [Unifig::Rails]: https://github.com/AaronLasseigne/unifig-rails
 [Rails]: https://rubyonrails.org
 [Unifig]: https://github.com/AaronLasseigne/unifig
+[documentation]: https://github.com/AaronLasseigne/unifig#usage
 [Semantic Versioning]: http://semver.org/spec/v2.0.0.html
 [GitHub releases]: https://github.com/AaronLasseigne/unifig-rails/releases
-[API Documentation]: http://rubydoc.info/github/AaronLasseigne/unifig-rails
 [our contribution guidelines]: CONTRIBUTING.md
 [complete list of contributors]: https://github.com/AaronLasseigne/unifig-rails/graphs/contributors
 [the MIT License]: LICENSE.txt
