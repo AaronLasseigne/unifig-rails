@@ -30,7 +30,7 @@ For information on how to use Unifig see the [documentation][] for that gem.
 
 ## Contributing
 
-If you want to contribute to Unifig, please read [our contribution guidelines][].
+If you want to contribute to Unifig::Rails, please read [our contribution guidelines][].
 A [complete list of contributors][] is available on GitHub.
 
 ## License
