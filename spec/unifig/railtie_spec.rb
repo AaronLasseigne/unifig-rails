@@ -12,9 +12,7 @@ RSpec.describe Unifig::Railtie do
       before do
         write_config(<<~YML)
           config:
-            envs:
-              development:
-                providers: local
+            providers: local
 
           FOO:
             value: 'foo'

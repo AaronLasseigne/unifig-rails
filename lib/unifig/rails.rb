@@ -15,7 +15,7 @@ module Unifig
 
     def self.run
       file_path = ::Rails.root.join(CONFIG_PATH)
-      Unifig::Init.load_file(file_path, ::Rails.env.to_sym) if File.exist?(file_path)
+      Unifig::Init.load_file(file_path, env: ::Rails.env.to_sym) if File.exist?(file_path)
     end
   end
 end
