@@ -9,15 +9,9 @@ module Unifig
     def config
       abort 'A configuration file already exists.' if File.exist?(Unifig::Rails::CONFIG_PATH)
 
-      envs = Dir
-        .children(File.join('config', 'environments'))
-        .map { |f| File.basename(f, '.rb') }
-        .sort
-
       create_file Unifig::Rails::CONFIG_PATH, <<~YML
         config:
-          envs:
-        #{envs.map { |env| "#{' ' * 4}#{env}:\n#{' ' * 6}providers: local" }.join("\n")}
+          providers: local
 
 
       YML

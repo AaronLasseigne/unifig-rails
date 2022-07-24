@@ -11,13 +11,7 @@ RSpec.describe Unifig::ConfigGenerator do
 
     expect(content).to eql <<~YML
       config:
-        envs:
-          development:
-            providers: local
-          production:
-            providers: local
-          test:
-            providers: local
+        providers: local
 
 
     YML
@@ -27,12 +21,10 @@ RSpec.describe Unifig::ConfigGenerator do
     before do
       write_config(<<~YML)
         config:
-          envs:
-            development:
-              providers: local
+          providers: local
 
-        FOO:
-          value: 'foo'
+        ONE:
+          value: 1
       YML
     end
 
@@ -42,7 +34,7 @@ RSpec.describe Unifig::ConfigGenerator do
         File.read(Unifig::Rails::CONFIG_PATH)
       end
 
-      expect(content).to include 'FOO'
+      expect(content).to include 'ONE'
     end
   end
 end
