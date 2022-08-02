@@ -27,5 +27,6 @@ Gem::Specification.new do |spec|
   spec.test_files = Dir.glob(File.join('spec', '**', '*.rb'))
 
   spec.add_dependency 'railties', '>= 6'
+  spec.add_dependency 'tty-table', '0.12.0'
   spec.add_dependency 'unifig', '~> 0.3.2'
 end

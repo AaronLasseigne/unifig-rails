@@ -28,6 +28,24 @@ Once your Rails app has been started you will be able use Unifig with the setup 
 
 For information on how to use Unifig see the [documentation][] for that gem.
 
+If you need to know more information about the variables in Unifig you can run `rake unifig:vars` and get a listing.
+
+```sh
+> be rake unifig:vars
+┌────────┬────────────────┬──────────┬──────────┬─────────┐
+│        │                │          │          │         │
+│ Var    │ Value          │ Provider │ Required │ Method  │
+├────────┼────────────────┼──────────┼──────────┼─────────┤
+│        │                │          │          │         │
+│ HOME   │ "/Users/aaron" │ env      │ true     │ .home   │
+│        │                │          │          │         │
+│ NAME   │ "Aaron"        │ local    │ true     │ .name   │
+│        │                │          │          │         │
+│ HELLO  │ "hi \"Aaron\"" │ local    │ false    │ .hello  │
+└────────┴────────────────┴──────────┴──────────┴─────────┘
+
+```
+
 ## Contributing
 
 If you want to contribute to Unifig::Rails, please read [our contribution guidelines][].
