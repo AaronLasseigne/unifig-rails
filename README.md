@@ -30,8 +30,8 @@ For information on how to use Unifig see the [documentation][] for that gem.
 
 If you need to know more information about the variables in Unifig you can run `rake unifig:vars` and get a listing.
 
-```sh
-> be rake unifig:vars
+```
+> rake unifig:vars
 ┌────────┬────────────────┬──────────┬──────────┬─────────┐
 │        │                │          │          │         │
 │ Var    │ Value          │ Provider │ Required │ Method  │
