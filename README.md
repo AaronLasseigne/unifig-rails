@@ -10,7 +10,7 @@ Adds [Rails][] support to [Unifig][].
 Add it to your Gemfile:
 
 ``` rb
-gem 'unifig-rails', '~> 0.2.0'
+gem 'unifig-rails', '~> 0.3.0'
 ```
 
 Run the configuration generator:
