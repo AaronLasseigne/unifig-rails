@@ -11,7 +11,7 @@ RSpec.describe Unifig::Railtie do
     context 'with a config' do
       before do
         write_config(<<~YML)
-          config:
+          unifig:
             providers: local
 
           FOO:

@@ -10,7 +10,7 @@ RSpec.describe Unifig::ConfigGenerator do
     end
 
     expect(content).to eql <<~YML
-      config:
+      unifig:
         providers: local
 
 
@@ -20,7 +20,7 @@ RSpec.describe Unifig::ConfigGenerator do
   context 'with an existing file' do
     before do
       write_config(<<~YML)
-        config:
+        unifig:
           providers: local
 
         ONE:
