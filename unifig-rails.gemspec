@@ -28,5 +28,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'railties', '>= 6'
   spec.add_dependency 'tty-table', '0.12.0'
-  spec.add_dependency 'unifig', '~> 0.3.2'
+  spec.add_dependency 'unifig', '~> 0.4.0'
 end

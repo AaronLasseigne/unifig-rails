@@ -10,7 +10,7 @@ module Unifig
       abort 'A configuration file already exists.' if File.exist?(Unifig::Rails::CONFIG_PATH)
 
       create_file Unifig::Rails::CONFIG_PATH, <<~YML
-        config:
+        unifig:
           providers: local
 
 
