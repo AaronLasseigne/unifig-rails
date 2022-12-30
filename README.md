@@ -3,7 +3,7 @@
 Adds [Rails][] support to [Unifig][].
 
 [![Version](https://img.shields.io/gem/v/unifig-rails.svg?style=flat-square)](https://rubygems.org/gems/unifig-rails)
-[![Test](https://img.shields.io/github/workflow/status/AaronLasseigne/unifig-rails/Test?label=Test&style=flat-square)](https://github.com/AaronLasseigne/unifig-rails/actions?query=workflow%3ATest)
+[![Test](https://img.shields.io/github/actions/workflow/status/AaronLasseigne/unifig-rails/test.yml?label=Test&style=flat-square&branch=main)](https://github.com/AaronLasseigne/unifig-rails/actions?query=workflow%3ATest)
 
 ## Installation
 
